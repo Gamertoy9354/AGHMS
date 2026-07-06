@@ -1,211 +1,432 @@
-# AGHMS – Academic Governance & HOD Monitoring System
-### R.N.G. Patel Institute of Technology, Bardoli, Gujarat
+# 🏫 AGHMS - Academic & General Higher Management System
 
-[![Status](https://img.shields.io/badge/Status-Phase%201%20Active-blue)](.)
-[![Stack](https://img.shields.io/badge/Stack-React%20+%20Supabase-green)](.)
-[![License](https://img.shields.io/badge/License-Private-red)](.)
+<p align="center">
+  <img src="public/favicon.svg" width="180" alt="AGHMS">
+</p>
+
+<p align="center">
+<strong>A production-grade Academic & General Higher Management System developed for educational institutions to streamline administration, academics, compliance, meetings, documentation, analytics, and institutional workflows.</strong>
+</p>
+
+<p align="center">
+
+![React](https://img.shields.io/badge/React-19-blue?logo=react)
+
+![Vite](https://img.shields.io/badge/Vite-Frontend-purple?logo=vite)
+
+![Supabase](https://img.shields.io/badge/Supabase-Backend-green?logo=supabase)
+
+![Production](https://img.shields.io/badge/Status-Live-success)
+
+![Self Hosted](https://img.shields.io/badge/Hosting-Self--Hosted-red)
+
+![Education](https://img.shields.io/badge/Industry-Education-blue)
+
+</p>
 
 ---
 
-## 🎯 About
+# 🌐 Live Production Deployment
 
-AGHMS is a comprehensive web application built for **RNGPIT** (R.N.G. Patel Institute of Technology) to streamline academic governance, meeting management, performance monitoring, and compliance tracking. Built for **Principal Latesh Sir** and the HOD community.
+## 🚀 Production Status
+
+AGHMS is a fully operational production platform currently deployed and actively used by **RNG Patel Institute of Technology**.
+
+The system is not a prototype or demonstration. It is used daily by faculty members, administrators, and institutional staff to manage academic operations, meetings, compliance activities, institutional documentation, attendance, performance monitoring, and administrative workflows.
+
+### 🌍 Live Website
+
+https://aghms.rngpitai.in
+
+<img width="1365" height="688" alt="Screenshot 2026-07-06 154452" src="https://github.com/user-attachments/assets/e74cbdb4-4d09-40c8-b47a-da087ef696b2" />
+
+<img width="1365" height="687" alt="Screenshot 2026-07-06 154550" src="https://github.com/user-attachments/assets/68794aca-109f-4bf5-b4ed-5408ed4ed8b0" />
+
+<img width="1365" height="688" alt="Screenshot 2026-07-06 154605" src="https://github.com/user-attachments/assets/8eb56dff-a914-45f0-8ff7-8fbdf3a68b5b" />
+
+<img width="1365" height="686" alt="Screenshot 2026-07-06 154616" src="https://github.com/user-attachments/assets/84e6353b-23ea-4fb8-af68-74b3b1bbf22a" />
+
+<img width="1365" height="687" alt="Screenshot 2026-07-06 154624" src="https://github.com/user-attachments/assets/8419c5b1-6338-49a7-9343-ecfbaf2cc340" />
+
+<img width="1364" height="685" alt="Screenshot 2026-07-06 154633" src="https://github.com/user-attachments/assets/349d6b6e-95ac-4d16-8274-2c65c87301b6" />
+
+<img width="1365" height="686" alt="Screenshot 2026-07-06 154648" src="https://github.com/user-attachments/assets/a2886083-09e6-4b18-8dd0-cd555d813ac8" />
+
+<img width="1365" height="686" alt="Screenshot 2026-07-06 154702" src="https://github.com/user-attachments/assets/588920f7-ac16-4782-8e61-3b4409df3c32" />
+
+<img width="1365" height="685" alt="Screenshot 2026-07-06 154710" src="https://github.com/user-attachments/assets/73888347-87b5-4604-b4b1-c1db2504b6e8" />
+
+<img width="1365" height="687" alt="Screenshot 2026-07-06 155321" src="https://github.com/user-attachments/assets/ddf72991-d42c-458f-b38f-7cca5c9efdfb" />
+
+<img width="1365" height="687" alt="Screenshot 2026-07-06 155348" src="https://github.com/user-attachments/assets/37474689-1816-48ff-9e4c-54980e3a793e" />
+
+<img width="1365" height="684" alt="Screenshot 2026-07-06 155403" src="https://github.com/user-attachments/assets/5b2ad1c4-b3a5-4f17-830a-48bc9b2279d9" />
+
+<img width="1365" height="686" alt="Screenshot 2026-07-06 155708" src="https://github.com/user-attachments/assets/7e168e08-3648-4692-b6e8-7e7ad03e4f9f" />
+
+<img width="1365" height="685" alt="Screenshot 2026-07-06 155719" src="https://github.com/user-attachments/assets/8a2e3b23-bee6-4c63-a0bd-05d2a1315e36" />
+
+<img width="1365" height="688" alt="Screenshot 2026-07-06 155957" src="https://github.com/user-attachments/assets/e3e6453e-1145-418f-8454-12e79db8a4da" />
 
 ---
 
-## 🚀 Quick Start
+# 📖 Overview
 
-### Prerequisites
-- Node.js 18+
-- npm 9+
-- Supabase account (free tier)
+AGHMS (Academic & General Higher Management System) is a comprehensive institution management platform designed to centralize academic, administrative, and compliance-related workflows into a single modern web application.
 
-### Installation
+The platform provides dedicated modules for academics, faculty meetings, NAAC documentation, Outcome-Based Education (OBE), Learning Management, attendance, fees, audit logs, institutional documentation, analytics, and AI-assisted services.
+
+Rather than functioning as a traditional ERP, AGHMS focuses on simplifying institutional management while providing a scalable and production-ready architecture for higher education institutions.
+
+---
+
+# ✨ Features
+
+## 📊 Dashboard
+
+- Institutional Overview
+- Analytics
+- Performance Metrics
+- Faculty Insights
+- Academic Statistics
+
+---
+
+## 🎓 Academics
+
+- Academic Calendar
+- Attendance Management
+- Student Performance
+- Examination Results
+- Weak Student Analysis
+
+---
+
+## 📅 Meetings
+
+- Meeting Calendar
+- Agenda Creation
+- Agenda Templates
+- Minutes of Meeting (MOM)
+- Action Item Tracking
+- Meeting History
+
+---
+
+## 📄 Document Management
+
+- Institutional Documents
+- Secure Storage
+- Search & Organization
+- Export Utilities
+
+---
+
+## 🏛 Compliance
+
+- NAAC Management
+- Outcome Based Education (OBE)
+- Learning Management Support
+- Accreditation Documentation
+
+---
+
+## 👥 Administration
+
+- User Management
+- Authentication
+- Role-Based Access
+- Audit Logs
+- Administrative Controls
+
+---
+
+## 💰 Finance
+
+- Fee Management
+- Financial Records
+- Payment Tracking
+
+---
+
+## 🤖 AI Features
+
+- AI-powered services
+- Intelligent document processing
+- Institutional automation
+
+---
+
+## 📢 Notifications
+
+- Email Services
+- Internal Notifications
+- Workflow Alerts
+
+---
+
+# 🌍 Real World Impact
+
+AGHMS is actively used in a real educational institution to support day-to-day administrative operations.
+
+The platform currently powers workflows including:
+
+- Academic Management
+- Institutional Documentation
+- Faculty Meetings
+- Compliance Activities
+- Administrative Operations
+- Performance Monitoring
+- Attendance Tracking
+- Fee Management
+- Audit Logging
+
+---
+
+# 🏗 Production Infrastructure
+
+The application is deployed on self-managed production infrastructure.
+
+Deployment includes:
+
+- 🌐 Custom Domain
+- 🖥 Self-hosted Infrastructure
+- 🔒 HTTPS / SSL
+- ☁️ Supabase Backend
+- 🔄 Continuous Maintenance
+- ⚙️ Production Monitoring
+- 📦 Automated Deployment Pipeline
+
+---
+
+# 🛠 Tech Stack
+
+## Frontend
+
+- React
+- Vite
+- JavaScript (ES6+)
+- Tailwind CSS
+
+## Backend
+
+- Supabase
+- Serverless APIs
+
+## Database
+
+- Supabase PostgreSQL
+
+## Authentication
+
+- Supabase Authentication
+
+## AI & Automation
+
+- AI Service Layer
+- Email Services
+- Data Ingestion Utilities
+
+## Infrastructure
+
+- Self Hosted Deployment
+- HTTPS
+- Custom Domain
+
+---
+
+# 📂 Project Structure
+
+```text
+src/
+
+├── app/
+
+├── pages/
+
+│   ├── dashboard/
+
+│   ├── academics/
+
+│   ├── meetings/
+
+│   ├── compliance/
+
+│   ├── documents/
+
+│   ├── admin/
+
+│   ├── fees/
+
+│   └── authentication/
+
+├── components/
+
+├── contexts/
+
+├── hooks/
+
+├── lib/
+
+│   ├── ai/
+
+│   ├── services/
+
+│   ├── email/
+
+│   ├── ingestion/
+
+│   └── supabase/
+
+public/
+
+dist/
+```
+
+---
+
+# 🧩 System Architecture
+
+```text
+                    Users
+
+        Faculty • HOD • Admin
+
+                    │
+
+                    ▼
+
+              React Frontend
+
+                    │
+
+                    ▼
+
+           Authentication Layer
+
+                    │
+
+      ┌─────────────┼─────────────┐
+
+      ▼             ▼             ▼
+
+ Academics      Meetings      Compliance
+
+      ▼             ▼             ▼
+
+ Documents      Fees        Administration
+
+              ▼
+
+        Supabase Backend
+
+              ▼
+
+ Database • Storage • Authentication
+
+              ▼
+
+          Analytics & AI
+```
+
+---
+
+# 🚀 Installation
+
+Clone the repository
 
 ```bash
-# 1. Clone / open the project
-cd d:/INNOCREW/AGHMS
+git clone https://github.com/yourusername/AGHMS.git
 
-# 2. Install dependencies (already done)
+cd AGHMS
+```
+
+Install dependencies
+
+```bash
 npm install
-
-# 3. Configure environment
-cp .env .env.local
-# Edit .env with your Supabase credentials
-
-# 4. Setup database (run in Supabase SQL Editor)
-# Paste contents of supabase/schema.sql
-
-# 5. Start development server
-npm run dev
-# → App running at http://localhost:5173
 ```
 
----
+Configure environment variables
 
-## 🔧 Supabase Setup
-
-### Step 1: Create Project
-1. Go to [supabase.com](https://supabase.com) → New Project
-2. Choose `ap-south-1` region (Mumbai - closest to Bardoli)
-3. Note your **Project URL** and **Anon Key**
-
-### Step 2: Run Schema
-1. Open Supabase → **SQL Editor**
-2. Paste the entire contents of `supabase/schema.sql`
-3. Click **Run** — this creates all tables, enums, indexes, and RLS policies
-
-### Step 3: Create First Admin User
-1. Go to Supabase → **Authentication** → **Users** → **Invite User**
-2. Enter Principal's email
-3. After they sign up, run this SQL to assign admin role:
-```sql
-UPDATE users SET role = 'principal' WHERE email = 'principal@rngpit.ac.in';
-```
-
-### Step 4: Configure .env
 ```env
-VITE_SUPABASE_URL=https://yourproject.supabase.co
-VITE_SUPABASE_ANON_KEY=your-anon-key-here
+VITE_SUPABASE_URL=
+
+VITE_SUPABASE_ANON_KEY=
 ```
 
----
+Start development server
 
-## 📁 Project Structure
-
-```
-AGHMS/
-├── src/
-│   ├── components/
-│   │   ├── layout/
-│   │   │   └── AppShell.jsx        # Sidebar + Header layout
-│   │   ├── ui/
-│   │   │   └── LoadingScreen.jsx   # Full-screen loader
-│   │   └── ProtectedRoute.jsx      # Auth guard
-│   ├── contexts/
-│   │   ├── AuthContext.jsx          # Supabase Auth + profile
-│   │   └── NotificationContext.jsx  # In-app notifications
-│   ├── lib/
-│   │   ├── supabase.js              # Supabase client
-│   │   └── constants.js             # App-wide constants
-│   ├── pages/
-│   │   ├── auth/
-│   │   │   └── LoginPage.jsx        # ✅ Glassmorphism login
-│   │   ├── dashboard/
-│   │   │   └── DashboardPage.jsx    # ✅ Full KPI dashboard
-│   │   ├── meetings/
-│   │   │   └── AgendasPage.jsx      # ✅ Meeting agendas list
-│   │   ├── documents/
-│   │   │   └── DocumentsPage.jsx    # ✅ Document hub + matrix
-│   │   ├── academics/
-│   │   │   └── PerformancePage.jsx  # ✅ Performance analytics
-│   │   └── placement/
-│   │       └── PlacementPage.jsx    # ✅ Placement tracking
-│   ├── App.jsx                      # Router + providers
-│   ├── main.jsx                     # Entry point
-│   └── index.css                    # Global styles + design tokens
-├── supabase/
-│   └── schema.sql                   # Complete DB schema + RLS
-├── tailwind.config.js
-├── .env                             # Environment variables
-└── package.json
+```bash
+npm run dev
 ```
 
----
+Create production build
 
-## 👥 User Roles
-
-| Role | Access Level | Key Features |
-|------|-------------|-------------|
-| **Director** | All data | Full system oversight |
-| **Principal** | All data | Meeting approval, reports |
-| **HOD** | Own department | Upload docs, view dept data |
-| **Faculty** | Assigned data | Attendance, LMS, results |
-| **TPO** | Placement data | Drive management |
-| **Accounts** | Fees data | Collection tracking |
-| **Exam Cell** | Results data | Result management |
-| **Admin** | System admin | User management, settings |
-
----
-
-## ✅ Phase 1 – Completed Features
-
-- [x] **Glassmorphism Login Page** with form validation
-- [x] **Role-based Auth** with Supabase Auth + RLS
-- [x] **Dashboard** with 8 KPI cards, charts, activity feed
-- [x] **Department Performance Charts** (bar, line, donut)
-- [x] **Meeting Agendas Page** with status filters + doc progress
-- [x] **Document Hub** with list view + compliance matrix
-- [x] **Academic Performance Page** with rankings + trends
-- [x] **Placement Monitoring** with sector/package analysis
-- [x] **Collapsible Sidebar** with role-based navigation
-- [x] **Notification System** (in-app context)
-- [x] **Complete DB Schema** with RLS policies
-
----
-
-## 🔄 Phase 2 – In Progress
-
-- [ ] Meeting Calendar (monthly/annual view)
-- [ ] Agenda Creation Form with rich text + templates
-- [ ] Circular PDF generation + distribution
-- [ ] MOM (Minutes of Meeting) module
-- [ ] ATR Tracking
-- [ ] Attendance monitoring with defaulter alerts
-- [ ] Fees monitoring with collection analytics
-- [ ] LMS compliance dashboard
-
----
-
-## 🚀 Deployment
-
-### Vercel (Frontend)
 ```bash
 npm run build
-# Deploy dist/ folder to Vercel
-# Set environment variables in Vercel dashboard
 ```
 
-### Supabase (Backend + Auth + Storage)
-- Database: Managed on Supabase Cloud
-- Auth: Built-in Supabase Auth
-- Storage: Supabase Storage (for document files)
+---
+
+# 🚀 Future Roadmap
+
+- Mobile Application
+- AI Meeting Summaries
+- OCR Document Processing
+- Parent Portal
+- Student Portal
+- Faculty Mobile App
+- Push Notifications
+- Timetable Automation
+- Predictive Analytics
+- Multi-Institution Support
 
 ---
 
-## 📊 Database Overview
+# 💡 Design Goals
 
-**Core tables:** `users`, `departments`, `academic_years`, `semesters`
+AGHMS was developed as a scalable institutional platform capable of supporting real-world educational operations.
 
-**Meetings:** `meetings`, `meeting_calendar`, `agenda_items`, `meeting_mom`, `action_items`
+The project emphasizes:
 
-**Documents:** `documents`, `document_versions`
-
-**Academics:** `students`, `subjects`, `results`, `co_attainment`, `weak_students`, `attendance_summary`
-
-**Placement:** `companies`, `placement_drives`, `placement_offers`
-
-**Fees:** `student_fee_records`
-
-**Compliance:** `compliance_documents`, `program_outcomes`, `course_outcomes`
-
-**System:** `notifications`, `audit_logs`
+- Scalability
+- Modular Architecture
+- Security
+- Maintainability
+- Automation
+- Performance
+- User Experience
+- Production Readiness
 
 ---
 
-## 🔐 Security Features
+# 📄 License
 
-- Supabase Row Level Security (RLS) on all tables
-- Role-based access control (8 distinct roles)
-- JWT-based session management (Supabase Auth)
-- HODs can only access their department data
-- Audit trail for all critical actions
-- Signed URLs for document storage
+Apache License 2.0
 
 ---
 
-## 📞 Support
+# 👨‍💻 Author
 
-For issues, contact the development team or raise a GitHub issue.
+**Shis Maheta**
 
-**Built with ❤️ for RNGPIT Bardoli · 2025–26**
+🏆 National-Level Hackathon Winner
+
+🤖 AI Developer
+
+💻 Full Stack Developer
+
+☁️ Self-Hosted Infrastructure Engineer
+
+🏫 Educational Technology Developer
+
+---
+
+# ⭐ Support
+
+If you found this project interesting, consider giving it a ⭐ on GitHub.
+
+---
+
+> **Note:** AGHMS is a real-world production platform currently deployed and actively used within RNG Patel Institute of Technology. The project demonstrates large-scale frontend architecture, authentication, institutional workflow management, compliance automation, meeting management, analytics, and production deployment practices.
